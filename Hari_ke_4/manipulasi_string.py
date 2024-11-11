@@ -21,5 +21,5 @@
 # print(nama.title())
 
 uang = 120000
-# print("{:,.2f}".format(uang))
-print(f'Uang Saya Tinggal : {uang:,.2f}')
+print("{:,.2f}".format(uang))
+# print(f'Uang Saya Tinggal : {uang:,.2f}')
