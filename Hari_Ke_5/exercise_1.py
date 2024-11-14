@@ -1,12 +1,10 @@
 kelas = str(input('Masukan Kelas: ')).upper()
 jumlah = int(input('Masukan Jumlah Mahasiswa:'))
-siswa_ke = 1
 total = 0
 
-for i in range (jumlah):
-    nilai = int(input(f'Masukan Nilai Mahasiswa Ke {siswa_ke} : '))
+for i in range (0, jumlah, 1):
+    nilai = int(input(f'Masukan Nilai Mahasiswa Ke {i} : '))
     total += nilai
-    siswa_ke += 1
     rata_rata = total / jumlah
 
 print("="*30)

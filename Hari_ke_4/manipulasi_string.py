@@ -9,16 +9,16 @@
 
 # print(text1 *int(number2))
 
-# nama = input("Masukan Nama :").upper()
-# print(nama)
+nama = input("Masukan Nama :").upper()
+print(nama)
 
-# list_kata = ["i", "love", "you"]
-# gabung = " ".join(list_kata)
-# print(gabung)
-# print(nama.upper())
-# print(nama.lower())
-# print(nama.capitalize())
-# print(nama.title())
+list_kata = ["i", "love", "you"]
+gabung = " ".join(list_kata)
+print(gabung)
+print(nama.upper())
+print(nama.lower())
+print(nama.capitalize())
+print(nama.title())
 
 uang = 120000
 print("{:,.2f}".format(uang))

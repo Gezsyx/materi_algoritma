@@ -63,7 +63,7 @@
 #     print('KONYOL')
 #     break
 
-for p in range(10):
-    if p == 5:
-        continue
-    print(p)
+# for p in range(10):
+#     if p == 5:
+#         continue
+#     print(p)

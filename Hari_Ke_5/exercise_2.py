@@ -1,7 +1,7 @@
 import random
 angka_rahasia = random.randint(1, 50)
 percobaan = int(0)
-print("Selamat Datang di Game Tebak Angka!".upper())
+print("Selamat Datang di GACORHARBER515!".upper())
 depo = int(input("Masukan Jumlah Untuk Depo (Minimal 5.000): ".upper()))
 hadiah = int (random.randint(1000, 50000))
 
