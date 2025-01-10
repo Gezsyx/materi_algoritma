@@ -28,7 +28,7 @@
 #         print("="*100)
 #         break
     
-# else:
+# else:.
 #     print("Masukkan pilihan dengan benar.")
 
 import matematika as md
