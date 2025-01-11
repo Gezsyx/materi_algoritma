@@ -20,10 +20,10 @@
 stack = []
 
 def push(value):
-    if len(stack) >= 4:
-        print("Penuh")
-    else :
-        stack.append(value)
+    # if len(stack) >= 4:
+    #     print("Penuh")
+    # else :
+    stack.append(value)
 
 
 def top():
@@ -43,6 +43,7 @@ push("5")
 
 isempty()
 print(stack)
+top()
 destroy()
 isempty()
 

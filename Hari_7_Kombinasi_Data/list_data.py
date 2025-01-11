@@ -11,8 +11,8 @@
 # simpan("mangga")
 # simpan("nanas")
 
-# # # del list [1]
-# # list.remove("nanas")
+# # del list [1]
+# list.remove("nanas")
 
 # print(list)
 
