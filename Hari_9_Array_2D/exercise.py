@@ -28,4 +28,7 @@ print(df)
 print(index_penjualan_tertinggi_hari)
 print(index_penjualan_tertinggi)
 
-df.to_csv('DataPenjualan.csv')
+
+# Untuk code export data ke csv, jika menggunakan parameter (sep=';'), untuk dilaptop saya hasilnya tidak rapi. Jadi saya tidak menggunakan parameter (sep=';') 
+df.to_csv('DataPenjualan1.csv')
+# df.to_csv('Data_Penjualan2.csv', sep=';')

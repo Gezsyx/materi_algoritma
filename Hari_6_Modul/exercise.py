@@ -46,7 +46,7 @@ while True:
         print(f"Hasil {a} - {b} = {md.kurang(a,b)}")
     elif option == 3:
         print(f"Hasil {a} x {b} = {md.kali(a,b)}")
-    next = str(input("Lanjutkan? (Y/T) : "))
+    next = str(input("Lanjutkan? (Y/T) : ")).upper()
     if next == "T" :
         print("Anda Menghentikan Program")
         break

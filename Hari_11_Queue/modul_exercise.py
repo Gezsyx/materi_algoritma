@@ -13,7 +13,7 @@ def tampilan():
           4. Keluar
 ''')
 
-def isempty():
+def isempty(): 
     return len(antrian) == 0
 
 def enqueue(value):
